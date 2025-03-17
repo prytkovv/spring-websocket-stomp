@@ -6,3 +6,6 @@ logging:
 spring:
   application:
     name: spring-websocket-stomp
+app:
+  websocket:
+    topic: /
