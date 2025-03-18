@@ -16,3 +16,6 @@ app:
     heartbeat:
       incoming-ms: 30000
       outgoing-ms: 0
+    max-message-size-bytes: 52_428_800
+    max-buffer-size-bytes: 1_073_741_824
+    max-send-time-limit-ms: 30000
