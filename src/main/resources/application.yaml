@@ -3,9 +3,16 @@ server:
 logging:
   level:
     root: INFO
+    org.springframework.web.socket: DEBUG
+    org.springframework.web.socket.client: DEBUG
+    org.springframework.messaging.simp: DEBUG
+    org.springframework.messaging.simp.stomp: DEBUG
 spring:
   application:
     name: spring-websocket-stomp
 app:
   websocket:
     topic: /
+    heartbeat:
+      incoming-ms: 30000
+      outgoing-ms: 0

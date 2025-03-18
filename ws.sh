@@ -2,7 +2,7 @@
 
 URL="ws://localhost:8080/api/ws/products"
 DESTINATION="/"
-HEARTBEAT="1000,1000"
+HEARTBEAT="0,30000"
 
 {
     echo -e "CONNECT\naccept-version:1.0,1.1,1.2\nheart-beat:$HEARTBEAT\n\n\x00"
