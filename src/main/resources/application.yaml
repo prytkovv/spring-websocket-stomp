@@ -11,6 +11,8 @@ spring:
   application:
     name: spring-websocket-stomp
 app:
+  session:
+    max-inactive-interval: 30s
   websocket:
     topic: /
     heartbeat:
